@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Product Defects",
+    "messageRegex": ".*booking failed.*|.*reservation error.*|.*system unavailable.*"
+  },
+  {
+    "name": "Test Automation Issues",
+    "messageRegex": ".*element not found.*|.*timeout.*|.*NoSuchElementException.*"
+  },
+  {
+    "name": "Environment Issues",
+    "messageRegex": ".*connection refused.*|.*server unavailable.*|.*network error.*"
+  },
+  {
+    "name": "Data Validation Errors",
+    "messageRegex": ".*assertion failed.*|.*expected.*but got.*|.*validation error.*"
+  }
+]

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-03-13T14:16:46 IST" name="Business Workflows Suite" finished-at="2026-03-13T14:16:58 IST" duration-ms="12261">
+    <groups>
+    </groups>
+    <test started-at="2026-03-13T14:16:46 IST" name="Workflow Execution" finished-at="2026-03-13T14:16:58 IST" duration-ms="12261">
+      <class name="com.eliasnogueira.workflow.RoomBookingWorkflow">
+        <test-method signature="validateRoomBooking()[pri:0, instance:com.eliasnogueira.workflow.RoomBookingWorkflow@474fae39]" started-at="2026-03-13T14:16:46 IST" name="validateRoomBooking" description="Validate room booking workflow execution" finished-at="2026-03-13T14:16:46 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateRoomBooking -->
+      </class> <!-- com.eliasnogueira.workflow.RoomBookingWorkflow -->
+      <class name="com.eliasnogueira.workflow.UserLoginWorkflow">
+        <test-method signature="executeLogin()[pri:0, instance:com.eliasnogueira.workflow.UserLoginWorkflow@56ac5c80]" started-at="2026-03-13T14:16:46 IST" name="executeLogin" description="Execute user login workflow" finished-at="2026-03-13T14:16:46 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeLogin -->
+      </class> <!-- com.eliasnogueira.workflow.UserLoginWorkflow -->
+      <class name="com.eliasnogueira.workflow.BookingValidationWorkflow">
+        <test-method signature="validateBooking()[pri:0, instance:com.eliasnogueira.workflow.BookingValidationWorkflow@ab20d7c]" started-at="2026-03-13T14:16:46 IST" name="validateBooking" description="Execute booking validation workflow" finished-at="2026-03-13T14:16:46 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateBooking -->
+      </class> <!-- com.eliasnogueira.workflow.BookingValidationWorkflow -->
+      <class name="com.eliasnogueira.workflow.UserRegistrationWorkflow">
+        <test-method signature="executeRegistration()[pri:0, instance:com.eliasnogueira.workflow.UserRegistrationWorkflow@3ece1e79]" started-at="2026-03-13T14:16:46 IST" name="executeRegistration" description="Execute user registration workflow" finished-at="2026-03-13T14:16:46 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeRegistration -->
+      </class> <!-- com.eliasnogueira.workflow.UserRegistrationWorkflow -->
+      <class name="com.eliasnogueira.workflow.BrowserInitializationWorkflow">
+        <test-method signature="initializeBrowser()[pri:0, instance:com.eliasnogueira.workflow.BrowserInitializationWorkflow@2fc2a205]" started-at="2026-03-13T14:16:46 IST" name="initializeBrowser" description="Execute browser initialization workflow" finished-at="2026-03-13T14:16:46 IST" duration-ms="116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+      </class> <!-- com.eliasnogueira.workflow.BrowserInitializationWorkflow -->
+      <class name="com.eliasnogueira.workflow.BookingWorkflow">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.eliasnogueira.workflow.BookingWorkflow@2264e43c]" started-at="2026-03-13T14:16:46 IST" name="beforeSuite" finished-at="2026-03-13T14:16:46 IST" duration-ms="357" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="preCondition(java.lang.String)[pri:0, instance:com.eliasnogueira.workflow.BookingWorkflow@2264e43c]" started-at="2026-03-13T14:16:46 IST" name="preCondition" finished-at="2026-03-13T14:16:53 IST" duration-ms="6751" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method signature="executeCompleteBookingWorkflow()[pri:0, instance:com.eliasnogueira.workflow.BookingWorkflow@2264e43c]" started-at="2026-03-13T14:16:53 IST" name="executeCompleteBookingWorkflow" description="Execute complete booking workflow from account creation to confirmation" finished-at="2026-03-13T14:16:58 IST" duration-ms="4703" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeCompleteBookingWorkflow -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:com.eliasnogueira.workflow.BookingWorkflow@2264e43c]" started-at="2026-03-13T14:16:58 IST" name="postCondition" finished-at="2026-03-13T14:16:58 IST" duration-ms="267" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- com.eliasnogueira.workflow.BookingWorkflow -->
+      <class name="com.eliasnogueira.workflow.SearchWorkflow">
+        <test-method signature="executeSearch()[pri:0, instance:com.eliasnogueira.workflow.SearchWorkflow@1023150a]" started-at="2026-03-13T14:16:46 IST" name="executeSearch" description="Execute search workflow" finished-at="2026-03-13T14:16:46 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeSearch -->
+      </class> <!-- com.eliasnogueira.workflow.SearchWorkflow -->
+      <class name="com.eliasnogueira.workflow.UserLogoutWorkflow">
+        <test-method signature="executeLogout()[pri:0, instance:com.eliasnogueira.workflow.UserLogoutWorkflow@69e49a81]" started-at="2026-03-13T14:16:46 IST" name="executeLogout" description="Execute user logout workflow" finished-at="2026-03-13T14:16:46 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeLogout -->
+      </class> <!-- com.eliasnogueira.workflow.UserLogoutWorkflow -->
+    </test> <!-- Workflow Execution -->
+  </suite> <!-- Business Workflows Suite -->
+</testng-results>

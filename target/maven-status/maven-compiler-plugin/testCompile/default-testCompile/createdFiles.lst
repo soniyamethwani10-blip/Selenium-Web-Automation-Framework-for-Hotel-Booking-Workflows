@@ -1,0 +1,9 @@
+com\eliasnogueira\workflow\BookingWorkflow.class
+com\eliasnogueira\workflow\UserRegistrationWorkflow.class
+com\eliasnogueira\workflow\BrowserInitializationWorkflow.class
+com\eliasnogueira\workflow\UserLoginWorkflow.class
+com\eliasnogueira\BaseWeb.class
+com\eliasnogueira\workflow\RoomBookingWorkflow.class
+com\eliasnogueira\workflow\SearchWorkflow.class
+com\eliasnogueira\workflow\UserLogoutWorkflow.class
+com\eliasnogueira\workflow\BookingValidationWorkflow.class
